@@ -1,3 +1,14 @@
+NOTE:
+
+Build packages with this:
+
+  cd assembly/target/
+  unzip livy-server-0.3.0.zip
+  rm livy-server-0.3.0/jars/*cdh5*
+  mv livy-server-0.3.0 livy-server
+  tar -zcf livy-server-0.3.0-SNAPSHOT-spark2.tar.gz livy-server
+
+==============================
 Welcome to Livy
 ===============
 
